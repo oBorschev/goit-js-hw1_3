@@ -28,4 +28,7 @@ switch (country) {
     coast = 170;
     alert(`Delivery in ${country} will coast ${coast}`);
     break;
+
+  default:
+    console.log("In your country delivery not available");
 }
